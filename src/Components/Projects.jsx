@@ -12,46 +12,46 @@ const Projects = ({ setActiveNavbar }) => {
     // const [count, setCount] = useState(0);
     const [Projects, setProjects] = useState([
         {
-            Image: Project1,
-            Topic: "Hotstar Clone",
-            GithubLink: "https://github.com/ShubhamJoshii/Hotstar-Clone",
-            HostLink: "https://shubhamjoshii.github.io/Hotstar-Clone/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "CSS", Color: "2760E5" }]
-        },
-        {
-            Image: Project3,
-            Topic: "Talkie-Chat App",
-            GithubLink: "https://github.com/ShubhamJoshii/TalkieChat",
-            HostLink: "https://talkie-chat.vercel.app/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "Firebase", Color: "FEA714" }, { Text: "CSS", Color: "2760E5" }]
+            Image: Project5,
+            Topic: "Amazon Clone",
+            GithubLink: "https://github.com/ShubhamJoshii/AmazonClone",
+            HostLink: "https://amazon-clone-shubhamjoshii.vercel.app/",
+            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "CSS", Color: "2760E5" }, { Text: "Full-Stack", Color: "fff" }]
         },
         {
             Image: Project6,
             Topic: "Perky-Beans",
             GithubLink: "https://github.com/ShubhamJoshii/perky-beans",
             HostLink: "https://perky-beans.vercel.app/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "Firebase", Color: "FEA714" }, { Text: "Sass", Color: "bf4080" }]
+            Language_Used: [{ Text: "MERN", Color: "b08039" }, { Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "Firebase", Color: "FEA714" }, { Text: "Sass", Color: "bf4080" }, { Text: "Full-Stack", Color: "fff" }]
+        },
+        {
+            Image: Project3,
+            Topic: "Talkie-Chat App",
+            GithubLink: "https://github.com/ShubhamJoshii/TalkieChat",
+            HostLink: "https://talkie-chat.vercel.app/",
+            Language_Used: [{ Text: "MERN", Color: "b08039" }, { Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "Firebase", Color: "FEA714" }, { Text: "CSS", Color: "2760E5" }, { Text: "Full-Stack", Color: "fff" }]
         },
         {
             Image: Project2,
             Topic: "Login-Register Form",
             GithubLink: "https://github.com/ShubhamJoshii/LoginRegisterMERN",
             HostLink: "http://mern-project-ten.vercel.app/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "CSS", Color: "2760E5" }]
+            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "NodeJS", Color: "3E9837" }, { Text: "CSS", Color: "2760E5" }, { Text: "Full-Stack", Color: "fff" }]
         },
         {
             Image: Project4,
             Topic: "Admin Dashboard",
             GithubLink: "https://github.com/ShubhamJoshii/AdminDashboard",
             HostLink: "https://shubhamjoshii.github.io/AdminDashboard/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "CSS", Color: "2760E5" }]
+            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "CSS", Color: "2760E5" }, { Text: "Front-End", Color: "fff" }]
         },
         {
-            Image: Project5,
-            Topic: "Amazon Clone",
-            GithubLink: "https://github.com/ShubhamJoshii/AmazonClone",
-            HostLink: "https://amazon-clone-shubhamjoshii.vercel.app/",
-            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "Mongodb", Color: "3E9837" }, { Text: "ExpressJS", Color: "FFE600" }, { Text: "CSS", Color: "2760E5" }]
+            Image: Project1,
+            Topic: "Hotstar Clone",
+            GithubLink: "https://github.com/ShubhamJoshii/Hotstar-Clone",
+            HostLink: "https://shubhamjoshii.github.io/Hotstar-Clone/",
+            Language_Used: [{ Text: "ReactJS", Color: "5CCFEE" }, { Text: "CSS", Color: "2760E5" }, { Text: "Front-End", Color: "fff" }]
         },
     ])
     return (
@@ -105,7 +105,8 @@ const Projects = ({ setActiveNavbar }) => {
                                             })
                                         }
                                     </div>
-                                </div>)
+                                </div>
+                            )
                         })
                     }
                 </div>

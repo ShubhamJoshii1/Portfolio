@@ -9,6 +9,8 @@ import FirebaseLogo from "../Assets/Firebase.png"
 import PythonLogo from "../Assets/Python.png"
 import FigmaLogo from "../Assets/Figma.png"
 import SassLogo from "../Assets/Sass.png"
+import GitLogo from "../Assets/git.png"
+import GithubLogo from "../Assets/GithubSkilsLogo.png"
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io"
 
 const SkillsData = [
@@ -77,6 +79,18 @@ const SkillsData = [
     Image: FigmaLogo,
     Color: "04293A",
     knowledgePercent: "65%"
+  },
+  {
+    Text: "GITHUB",
+    Image: GithubLogo,
+    Color: "04293A",
+    knowledgePercent: "70%"
+  },
+  {
+    Text: "GIT",
+    Image: GitLogo,
+    Color: "04293A",
+    knowledgePercent: "70%"
   }
 ]
 

@@ -1,4 +1,5 @@
 @use "base";
+@use "Loading";
 @use "frontPage";
 @use "aboutme";
 @use "skills";
@@ -6,3 +7,4 @@
 @use "certificate";
 @use "contactMe";
 @use "footer";
+@use "ShowMoreCertificate"

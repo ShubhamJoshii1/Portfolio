@@ -24,14 +24,16 @@
         }
 
         #ProjectCollections {
+            position: relative;
             display: flex;
-            // overflow: hidden;
-            justify-content: center;
+            // justify-content: center;
+            justify-content: space-around;
             align-items: center;
+            // align-items: stretch;
+
             gap: 100px;
             padding: 40px 20px;
             height: 450px;
-            position: relative;
 
             #Icons {
                 position: absolute;
@@ -48,34 +50,30 @@
                 }
             }
 
-            .ProjectCardCenter {
-                border: 10px solid rgb(217 217 217 / 64%);
-                border-top-width: 30px;
-                border-bottom-width: 30px;
-                outline: 2.5px solid #FFFFFF;
-                &:hover {
-                    transform: scale(1.03);
-                }
-            }
+            
 
             #ProjectCard {
-                width: 360px;
-                height: 328px;
+                width: 360px; 
+                // height: 290px;
                 padding: 18px;
                 background-color: #041C32;
                 border-radius: 10px;
                 cursor: pointer;
+                // align-self:stretch !important;
+                // align-items: stretch !important;
+                // align-self: unset;
                 #ProjectImage {
                     position: relative;
                     img {
-                        border-radius: 20px;
+                        border-radius: 4px;
                         width: 360px;
+                        box-shadow: 0 0 10px #ffffff5d;
                     }
 
                     div {
                         position: absolute;
-                        top: 10px;
-                        right: 10px;
+                        top: 5px;
+                        right: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -86,13 +84,13 @@
                             align-items: center;
                             justify-content: center;
                             color: white;
-                            font-size: 18px;
+                            font-size: 12px;
                             background-color: #0F0E11;
                             padding: 8px;
                             border-radius: 50%;
                             transition: transform 0.8s;
                             transform-style: preserve-3d;
-
+                            box-shadow:  0 0 10px #ffffff5d;
                             &:hover {
                                 animation-name: ProjectLInkAnime;
                                 animation-duration: 0.8s;
@@ -108,7 +106,6 @@
 
                     }
                 }
-
                 #languagesUsed {
                     display: flex;
                     flex-wrap: wrap;
@@ -123,33 +120,36 @@
                         margin: 0;
                     }
                 }
-
                 h2 {
                     font-size: 32px;
-                    margin: 10px 0px;
+                    // margin: 10px 0px;
+                    margin: 0;
                 }
-
                 h4 {
                     margin: 0;
                     font-size: 18px;
-                }
+                }         
+            }
 
-                
+            .ProjectCardCenter {
+                border: 10px solid rgb(217 217 217 / 64%);
+                border-top-width: 30px;
+                border-bottom-width: 30px;
+                outline: 2.5px solid #FFFFFF;
+                &:hover {
+                    transform: scale(1.03);
+                }
             }
 
             .ProjectCardLeft {
                 transform: rotate(-35deg);
-                // margin-top: 325px;
-                // margin-top: 380px;
-            }
-            
-            .ProjectCardLeft, .ProjectCardRight {
-                margin-top: 380px;
-
             }
             .ProjectCardRight {
                 transform: rotate(35deg);
-                // margin-top: 325px;
+                margin-top: 380px;
+            }
+            
+            .ProjectCardLeft, .ProjectCardRight {
                 margin-top: 380px;
             }
         }
@@ -207,7 +207,6 @@
                     
                     #ProjectImage{
                         img {
-                            border-radius: 20px;
                             width: 270px;
                         }
                     }

@@ -37,12 +37,13 @@
             
             h3 {
                 font-size: 18px;
+                margin: 0;
             }
 
             img{
                 margin-left: 10px;
-                width: 43px;
-                height: 38px;
+                // width: 43px;
+                // height: 38px;
                 border-radius: 4px;
             }
             
@@ -125,6 +126,25 @@
         #cardsCollection{
             margin: 0 20px;
             column-gap: 12px;
+            #cards{
+                padding: 2px 10px;
+                h3{
+                    font-size: 14px;
+                    
+                }
+                img{
+                    width: 26px;
+                }
+            }
+        }
+        #cardsShowMore {
+            padding: 2px 10px;
+            h3{
+                font-size: 12px;
+            }
+            #dropDown{
+                font-size: 20px;
+            }
         }
     }
     @media only screen and (max-width: 700px) {
