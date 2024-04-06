@@ -33,8 +33,7 @@ const Footer = ({activeNavbar,setActiveNavbar}) => {
             </a>
           </div>
           <div>
-            {/* <a href='https://twitter.com/Shubham49439428' target='_blank' rel="noreferrer" > */}
-            <a>
+            <a href='https://x.com/ShubhamJoshii03?t=TD1fIUJ3pUi-YhabSztJwA&s=09' target='_blank' rel="noreferrer">
               <img src={Twitter} alt="Social Logo" />
             </a>
             <a href='https://www.linkedin.com/in/shubham-joshi-86aaa6232' target='_blank' rel="noreferrer" >

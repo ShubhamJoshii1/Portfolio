@@ -32,18 +32,18 @@ const CertificateArr = [
         Logo: NPTELLogo,
         Link: "https://nptel.ac.in/noc/E_Certificate/NPTEL23CS108S53430411520378805"
     },
-    // {
-    //     Name: "Google Developer Student Club",
-    //     Image: GoogleStudentCerti,
-    //     Logo: GoogleCertiLogo,
-    //     Link: "#"
-    // },
-    // {
-    //     Name: "Microsoft Student Ambassador Program",
-    //     Image: MicrosoftCertificate,
-    //     Logo: MicrosoftCerfLogo,
-    //     Link: "#"
-    // }
+    {
+        Name: "Google Developer Student Club",
+        Image: GoogleStudentCerti,
+        Logo: GoogleCertiLogo,
+        Link: "#"
+    },
+    {
+        Name: "Microsoft Student Ambassador Program",
+        Image: MicrosoftCertificate,
+        Logo: MicrosoftCerfLogo,
+        Link: "#"
+    }
 ]
 
 const Certificate = ({ setActiveNavbar }) => {

@@ -54,7 +54,7 @@ const ContactMe = ({ setActiveNavbar }) => {
           </div>
           <div>
             <img src={PhoneLogo} alt='Logo' />
-            <p>+91-77019908**</p>
+            <p>+91-7701990852</p>
           </div>
           <div id='SocialMedias'>
             <a href='https://www.instagram.com/invites/contact/?i=1k3g7gxwflgz0&utm_content=2of27u2' target='_blank' rel="noreferrer">
@@ -66,8 +66,7 @@ const ContactMe = ({ setActiveNavbar }) => {
             <a href='https://github.com/ShubhamJoshii' target='_blank' rel="noreferrer">
               <img src={Github} alt="Social Logo" />
             </a>
-            {/* <a href='https://twitter.com/Shubham49439428' target='_blank' rel="noreferrer"> */}
-            <a>
+            <a href='https://x.com/ShubhamJoshii03?t=TD1fIUJ3pUi-YhabSztJwA&s=09' target='_blank' rel="noreferrer">
               <img src={Twitter} alt="Social Logo" />
             </a>
             <a href='https://www.linkedin.com/in/shubham-joshi-86aaa6232' target='_blank' rel="noreferrer">
